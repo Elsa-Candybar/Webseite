@@ -1,17 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
+    <meta charset="utf-8">
+    <title>Elsa-Candybar</title>
+    <style>
+        body {
+            background: #00091B;
+            color: #fff;
+            font-family: 'Muli', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .wrapper {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            animation: fadeIn 1000ms ease;
+        }
+
+        @keyframes fadeIn {
+            from {
+                top: 20%;
+                opacity: 0;
+            }
+            to {
+                top: 50%;
+                opacity: 1;
+            }
+        }
+
+        h1 {
+            font-size: 50px;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            font-weight: 700;
+            text-align: center;
+            color: #98c0c5;
+        }
+
+        p {
+            text-align: center;
+            margin: 18px;
+            font-weight: normal;
+        }
+
+        .email-link {
+            display: inline-block;
+            color: #00091B;
+            background: #fff;
+            padding: 10px 20px;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: background-color 200ms ease;
+        }
+
+        .email-link:hover {
+            background: #4FEBFE;
+            color: #00091B;
+        }
+
+        .center {
+            text-align: center;
+        }
+    </style>
 </head>
-
 <body>
-  <main>
-    <h1>Vanilla JavaScript App</h1>
-  </main>
+    <div class="wrapper">
+        <h1>Bald verfügbar</h1>
+        <br>
+        <div class="center">
+            <a href="#" class="email-link">&#9993; Kontakt</a>
+        </div>
+    </div>
 </body>
-
 </html>
