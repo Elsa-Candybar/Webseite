@@ -28,7 +28,8 @@ header {
   height: 60vh;
   overflow-y: hidden;
   background: url("images/header.png");
-  background-position: center
+  background-position: center;
+  background-size: cover;
 }
 header .top_header {
   text-align: center;
