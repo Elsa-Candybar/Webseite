@@ -47,7 +47,7 @@ main iframe {
   max-width: calc(100vw - 40px);
 }
 
-main > h1 {
+h1 {
   text-align: center;
   font-size: 3.5em;
 }
@@ -82,4 +82,9 @@ footer a:visited {
 footer .link_seperator {
   display: inline-block;
   padding: 0 4px;
+}
+
+#presentation-img {
+  width: 49.5%;
+  border: 1px solid #FFFFFF;
 }
