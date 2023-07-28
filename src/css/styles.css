@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Ravie";
-  src: url("./fonts/Ravie/Web Fonts/2aeca327ae0e8ba04bf305f13cb1d589.eot");
-  src: url("./fonts/Ravie/Web Fonts/2aeca327ae0e8ba04bf305f13cb1d589.eot?#iefix")format("embedded-opentype"),
-  url("./fonts/Ravie/Web Fonts/2aeca327ae0e8ba04bf305f13cb1d589.woff2")format("woff2"),
-  url("./fonts/Ravie/Web Fonts/2aeca327ae0e8ba04bf305f13cb1d589.woff")format("woff"),
-  url("./fonts/Ravie/Web Fonts/2aeca327ae0e8ba04bf305f13cb1d589.ttf")format("truetype"),
-  url("./fonts/Ravie/Web Fonts/2aeca327ae0e8ba04bf305f13cb1d589.svg#Ravie")format("svg");
+  src: url("../fonts/Ravie/Web Fonts/2aeca327ae0e8ba04bf305f13cb1d589.eot");
+  src: url("../fonts/Ravie/Web Fonts/2aeca327ae0e8ba04bf305f13cb1d589.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/Ravie/Web Fonts/2aeca327ae0e8ba04bf305f13cb1d589.woff2")format("woff2"),
+  url("../fonts/Ravie/Web Fonts/2aeca327ae0e8ba04bf305f13cb1d589.woff")format("woff"),
+  url("../fonts/Ravie/Web Fonts/2aeca327ae0e8ba04bf305f13cb1d589.ttf")format("truetype"),
+  url("../fonts/Ravie/Web Fonts/2aeca327ae0e8ba04bf305f13cb1d589.svg#Ravie")format("svg");
 }
 
 * {
@@ -44,8 +44,13 @@ header .logo {
 main {
   text-align: center;
 }
-main iframe {
-  max-width: calc(100vw - 40px);
+main section:not(.fullwidth) {
+  width: calc(100% - 40px);
+  max-width: 960px;
+  margin: 0 auto;
+}
+main section.text-left {
+  text-align: left;
 }
 
 h1 {
@@ -110,11 +115,11 @@ footer .link_seperator {
   max-width: 960px;
 }
 
-#privacy,#credits,#impressum {
+/*#privacy,#credits,#impressum {
   width: 98%;
   max-width: 960px;
   text-align: left;
   margin: 0;
   border: 0;
   padding: 0;
-}
+}*/
