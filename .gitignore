@@ -1,3 +1,5 @@
 node_modules/
 /test-results/
 .idea/
+
+.github\workflows\azure-static-web-apps-wonderful-coast-03a5c4903.yml
